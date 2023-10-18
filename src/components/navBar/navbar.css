@@ -1,0 +1,78 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 60px;
+}
+
+.navbar .logo {
+    font-family: 'Cairo', sans-serif;
+    text-transform: uppercase;
+    color: #dd7433;
+}
+
+.navlink ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navlink ul li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navlin2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3;
+}
+
+.navlin2 div {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.navlin2 span {
+    font-size: 20px;
+}
+
+.log {
+    display: inline;
+    border: 1px solid black;
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 6px;
+    margin-right: 6px;
+    font-weight: 300;
+}
+
+.sign {
+    display: inline;
+    background-color: #dd7433;
+    font-weight: 300;
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 16px;
+    color: #fff;
+    margin-left: 6px;
+    margin-right: 6px;
+}
