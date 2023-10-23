@@ -1,0 +1,104 @@
+.clientavi hr {
+    width: 10%;
+    height: 3px;
+    background: #000;
+    margin: 0 auto;
+}
+
+.clientavi {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.clientavi h1 {
+    font-size: 2em;
+    font-weight: 800;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.boite {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.boite .boiteP {
+    background: #fff;
+    color: rgb(0, 0, 0);
+    width: 350px;
+    height: 250px;
+    text-align: left;
+    padding: 15px;
+    box-shadow: 1px 0px 5px rgb(149, 149, 149);
+}
+
+.boite .boiteP .circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background: #7c7c7c;
+    margin: 15px;
+    margin-top: 2px;
+}
+
+.decription p {
+    font-size: 16px;
+}
+
+.decription h6 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 8px;
+}
+
+.start {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    top: 38px;
+}
+
+.start h3 {
+    font-weight: 300;
+}
+
+.stay-tuned {
+    padding: 80px;
+    background-color: #fff;
+}
+
+.subscribe-form {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.subscribe-form input {
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #000;
+    box-shadow: 0px 0px 2px rgba(102, 102, 102, 0.495);
+}
+
+.subscribe-form button {
+    background-color: #dd7433;
+    font-weight: 300;
+    padding: 4px 20px;
+    text-align: center;
+    border-radius: 12px;
+    color: #fff;
+    margin-left: 6px;
+    margin-right: 6px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
